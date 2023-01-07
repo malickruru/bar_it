@@ -1,0 +1,17 @@
+.footer{
+    background-color: #262626;
+    color: #fff;
+}
+
+.footer-col{
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    height: 50%;
+    bottom: 0;
+    position: relative;
+}
+
+.footer-col >h5{
+    margin-bottom: 20px;
+}

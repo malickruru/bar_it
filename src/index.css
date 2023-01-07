@@ -1,13 +1,63 @@
+@import url('Root.css');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bit-h1{
+  font-family: 'Turbinado Pro Bold';
+  font-weight: bold;
+  font-size: 70px;
+}
+.bit-h1-small{
+  font-family: 'Turbinado Pro Bold';
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.bit-h2{
+  font-family: 'Turbinado Pro Bold';
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.bit-st{
+  color:var(--pink);
+  font-size: 15px;
+  font-family: 'Termina Bold';
+  font-weight: bold;
+}
+
+@media screen and (max-width : 768px) {
+  .bit-h1{
+    font-size: 50px;
+  }
+  
+  .bit-h2{
+    font-size: 30px;
+  }
+  
+  .bit-st{
+    font-size: 18px;
+  }
+}
+
+/* carousel */
+.slick-slide{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.slick-dots li.slick-active button:before{
+color: #F27289 !important;
+}
+.slick-dots li:hover button:before{
+  color: #F27289 !important;
+  opacity: .7 !important;
+ }
+
+.slick-dots li button:before{
+ font-size: 15px !important;
 }

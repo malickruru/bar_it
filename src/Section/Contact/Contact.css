@@ -1,0 +1,18 @@
+.contact-card{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.contact-input{
+    width: 70%;
+    margin: 10px;
+    color: #F27289 ;
+    outline: none;
+}
+
+.contact-input::placeholder{
+ color: #F27289;
+ opacity: 0.7;
+}

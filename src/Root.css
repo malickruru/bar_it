@@ -1,0 +1,49 @@
+:root{
+    --red : #F13D3C;
+    --red_bordeau : #8B2322;
+    --white : #F2F2F2;
+    --black : #262626;
+    --pink : #F27289;
+  }
+  
+  /* add font */
+  @font-face {
+    font-family: 'Termina Regular';
+    src: url(./Assets/Fonts/Fontspring-DEMO-termina-regular.otf);
+  }
+  
+  @font-face {
+    font-family: 'Termina Medium';
+    src: url(./Assets/Fonts/Fontspring-DEMO-termina-medium.otf);
+  }
+  
+  @font-face {
+    font-family: 'Termina Semibold';
+    src: url(./Assets/Fonts/Fontspring-DEMO-termina-demi.otf);
+  }
+  
+  @font-face {
+    font-family: 'Termina Bold';
+    src: url(./Assets/Fonts/Fontspring-DEMO-termina-bold.otf);
+  }
+  
+  @font-face {
+    font-family: 'Turbinado Pro Bold';
+    src: url(./Assets/Fonts/FontsFree-Net-turbinado-bold.ttf);
+  }
+
+  @font-face {
+    font-family: 'MADEOuterSans-Black';
+    src:url(./Assets/Fonts/webfonts_MADEOuterSans-Black/MADEOuterSans-Black.ttf.woff) format('woff'),
+        url(./Assets/Fonts/webfonts_MADEOuterSans-Black/MADEOuterSans-Black.ttf.svg#MADEOuterSans-Black) format('svg'),
+        url(./Assets/Fonts/webfonts_MADEOuterSans-Black/MADEOuterSans-Black.ttf.eot),
+        url(./Assets/Fonts/webfonts_MADEOuterSans-Black/MADEOuterSans-Black.ttf.eot?#iefix) format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+  *{
+    font-family: 'Roboto';
+    
+  }

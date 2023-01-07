@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./Section/Header/Header";
+import Home from "./Pages/Home";
+import SocialBar from "./Pages/SocialBar";
+import Realisation from "./Pages/Realisation";
+import BarInfluence from "./Pages/BarInfluence";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Header />}>
+          <Route index element={<Home />} />
+          <Route path="SocialBar" element={<SocialBar />} />
+          <Route path="Realisation" element={<Realisation />} />
+          <Route path="BarInfluence" element={<BarInfluence />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;

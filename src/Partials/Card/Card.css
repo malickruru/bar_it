@@ -1,0 +1,25 @@
+.Card{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    
+}
+/* 
+.Card > img{
+    height: 50px;
+} */
+
+.Card > h4{
+    margin: 10px 0;
+    font-family: 'Termina Bold';
+}
+
+.Card > h6{
+    color: #F27289;
+    font-size: 12px;
+}

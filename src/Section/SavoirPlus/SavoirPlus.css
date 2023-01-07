@@ -1,0 +1,98 @@
+.sp-card{
+width : 90%;
+  height : 200px;
+  position : relative;
+  transition : all 0.3s ease;
+  overflow: hidden;
+}
+.carte-img{
+  object-fit:cover;
+  width:100%;
+  height:100%;
+}
+
+.content{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: end;
+  /* align-items: st; */
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,1) 100%);
+  flex-direction: column;
+  transition : all 0.8s ease;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.content >p, .content >a{
+  /* display: none; */
+  visibility: hidden;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  height: 0;
+  /* width: 0; */
+  transition : all 0.8s ease;
+  
+}
+
+.content >h6{
+  color: #fff;
+  padding: 0 15px;
+  font-weight: bold;
+}
+
+
+.content::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,1) 60%);
+  z-index: -1;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.content:hover::before{
+  opacity: 1;
+}
+
+.content:hover>p,
+.content:hover>a{
+  /* display: block; */
+  visibility: visible;
+  opacity: 1;
+  
+  /* padding: auto;
+  margin: auto; */
+  /* height: auto; */
+  /* width: auto; */
+}
+
+.content >p{
+  font-size: 12px;
+  width: 80%;
+  padding: 0 15px;
+}
+
+.content:hover>p{
+  height: 40px;
+  color: #fff;
+  
+}
+
+.content:hover>a{
+  height: 50px;
+}
+
+/* .content:hover .content >p, .content >a{
+display: block;
+} */

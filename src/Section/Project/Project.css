@@ -1,0 +1,21 @@
+.ProjectCard{
+    background-color: #F2F2F2;
+    /* margin-left: 10px !important;
+    margin-right: 10px !important; */
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 95% !important;
+
+}
+.ProjectCard > img{
+    max-width: 80%;
+    /* margin: auto; */
+}
+
+
+
+/* .slick-dots{
+    margin: 10px 0  !important;
+} */
