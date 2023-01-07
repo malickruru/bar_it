@@ -91,6 +91,7 @@ width : 90%;
 
 .content:hover>a{
   height: 50px;
+  padding: 0 15px;
 }
 
 /* .content:hover .content >p, .content >a{

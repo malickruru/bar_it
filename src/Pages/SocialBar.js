@@ -5,6 +5,7 @@ import SavoirPlus from '../Section/SavoirPlus/SavoirPlus'
 import Contact from '../Section/Contact/Contact'
 import Footer from '../Section/Footer/Footer'
 import ScrollToTopButton from '../Partials/ScrollToTopButton/ScrollToTopButton'
+import Ambiance from '../Section/Ambiance/Ambiance'
 
 export default function SocialBar() {
   return (
@@ -21,6 +22,7 @@ export default function SocialBar() {
         ‘sequi nesciunt. Neque porro quisquam `}
         titre={'Bienvenue au social bar'}
         />
+        <Ambiance/>
         <SavoirPlus a={2} b={0} />
         <Contact/>
         <Footer/>

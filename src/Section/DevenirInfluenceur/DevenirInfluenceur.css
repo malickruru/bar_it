@@ -1,0 +1,30 @@
+.form-infuenceur{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    z-index: 20;
+    transform: translateX(97%);
+    transition: all .5s ease-out;
+    display: flex;
+    overflow-y: auto;
+}
+
+.form-infuenceur:hover{
+    transform: translateX(0);
+}
+
+.call_to_action{
+    width: 3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call_to_action svg{
+    margin: 20px 0;
+}

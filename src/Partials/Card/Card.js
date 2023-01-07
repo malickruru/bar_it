@@ -2,7 +2,7 @@ import React from 'react'
 import './Card.css'
 
 
-export default function Card({title,subTitle,image,textAlign = 'center', w = 'auto', imgH =50}){
+export default function Card({title,subTitle,image,textAlign = 'center', w = 'auto', imgH =50 , component}){
     return (
         <div className='Card' style={{width : w}}>
             <img src={image} height={imgH}/>
@@ -11,7 +11,8 @@ export default function Card({title,subTitle,image,textAlign = 'center', w = 'au
             </h4>
             <h6 style={{textAlign : textAlign}}>
             {subTitle}
-            </h6>    
+            </h6>
+            {component}
         </div>
     )
 }

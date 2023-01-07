@@ -55,6 +55,12 @@ const flexRowBetween = {
   alignItems: "center",
 };
 
+const flexRowEvenly= {
+  display: "flex",
+  justifyContent: "space-evenly",
+  alignItems: "center",
+};
+
 export {
   flexColumn,
   flexLeft,
@@ -64,5 +70,6 @@ export {
   flexColumnLeft,
   flexRowBetween,
   flexColumnRight,
-  flexColumnEnd
+  flexColumnEnd,
+  flexRowEvenly
 };

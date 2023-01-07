@@ -2,8 +2,10 @@ import React from 'react'
 import ScrollToTopButton from '../Partials/ScrollToTopButton/ScrollToTopButton'
 import Bienvenu from '../Section/Bienvenu/Bienvenu'
 import Contact from '../Section/Contact/Contact'
+import DevenirInfluenceur from '../Section/DevenirInfluenceur/DevenirInfluenceur'
 import Footer from '../Section/Footer/Footer'
 import Hero from '../Section/Hero/Hero'
+import Influenceur from '../Section/Influenceur/Influenceur'
 import SavoirPlus from '../Section/SavoirPlus/SavoirPlus'
 
 export default function BarInfluence() {
@@ -19,10 +21,12 @@ export default function BarInfluence() {
         titre={"Qu'est-ce que le Bar a influence ?"}
         smallTitle = '-small'
         />
+        <Influenceur  />
         <SavoirPlus a={1} b={0} />
         <Contact/>
         <Footer/>
         <ScrollToTopButton/>
+        <DevenirInfluenceur/>
     </>
   )
 }

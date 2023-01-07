@@ -1,0 +1,17 @@
+.RealisationCard{
+    margin: 10px;
+    overflow: hidden;
+    background-color: #F2F2F2;
+    /* margin-left: 10px !important;
+    margin-right: 10px !important; */
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 95% !important;
+}
+
+.RealisationCard > img{
+    max-width: 80%;
+    /* margin: auto; */
+}

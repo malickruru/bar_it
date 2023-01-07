@@ -31,7 +31,7 @@ export default function Contact() {
     }
     right={
         <div className='contact-card'>
-            <h6 className='text-center'>Envoyer nous un message</h6>
+            <h6 className='text-center'>Envoyez nous un message</h6>
             <form style={flexColumn}>
                 <input className='contact-input' type={'text'} placeholder={'Nom prenom'}/>
                 <input className='contact-input' type={'text'} placeholder={'Adresse mail'}/>
