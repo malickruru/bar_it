@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/bar_it/static/css/main.507e2345.css",
+    "main.js": "/bar_it/static/js/main.8ec42bf4.js",
+    "static/js/787.fcc9d0b9.chunk.js": "/bar_it/static/js/787.fcc9d0b9.chunk.js",
+    "static/media/FontsFree-Net-turbinado-bold.ttf": "/bar_it/static/media/FontsFree-Net-turbinado-bold.064ece61c4db46fab002.ttf",
+    "static/media/Matrice-Regular.ttf": "/bar_it/static/media/Matrice-Regular.66a4d28499d99f4a758f.ttf",
+    "static/media/Termina-W05-Bold.ttf": "/bar_it/static/media/Termina-W05-Bold.a5fc85530cde5525bcd5.ttf",
+    "static/media/Pano Bold.otf": "/bar_it/static/media/Pano Bold.9471a26d6f3f00dad7ef.otf",
+    "static/media/Pano Regular.otf": "/bar_it/static/media/Pano Regular.26f7e740d9c91371e37f.otf",
+    "static/media/Pano Light.otf": "/bar_it/static/media/Pano Light.da99a9be3a0baf6daff5.otf",
+    "static/media/Fontspring-DEMO-termina-medium.otf": "/bar_it/static/media/Fontspring-DEMO-termina-medium.5c6bf4b6482d3adfd856.otf",
+    "static/media/Fontspring-DEMO-termina-demi.otf": "/bar_it/static/media/Fontspring-DEMO-termina-demi.9dcdff52fb6672f8c569.otf",
+    "static/media/Fontspring-DEMO-termina-regular.otf": "/bar_it/static/media/Fontspring-DEMO-termina-regular.11513ed6ca2207a6b350.otf",
+    "static/media/slick.svg": "/bar_it/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/bar_it/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/bar_it/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/bar_it/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/bar_it/index.html",
+    "main.507e2345.css.map": "/bar_it/static/css/main.507e2345.css.map",
+    "main.8ec42bf4.js.map": "/bar_it/static/js/main.8ec42bf4.js.map",
+    "787.fcc9d0b9.chunk.js.map": "/bar_it/static/js/787.fcc9d0b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.507e2345.css",
+    "static/js/main.8ec42bf4.js"
+  ]
+}
