@@ -27,30 +27,36 @@ export default function Team() {
     <>
     <div className='container'>
         <div className='row py-3'>
-            <Title title={'Notre team'} subTitle='Qualifie et motive'/>
+            <Title title={'Notre team'} subTitle='Qualifiés et motivés'/>
         </div>  
     </div>
     <div className='container'>
         <div className='row py-3'>
         <Slider {...settings} >
           <Card 
+          dataAos='zoom-in'
+          dataAosOffset='100'
           w="200px"
           imgH={75}
           // textAlign={'left'}
           title='Juliette aka Mina' 
-          subTitle="Fondatrice, chef de projet IT"
+          subTitle="Fondatrice - chef de projet IT"
           image="https://media.licdn.com/dms/image/D4E03AQHsS0XH4SR1AQ/profile-displayphoto-shrink_800_800/0/1667004646741?e=1678320000&v=beta&t=ZlSADxPZwIU_KSHvsaMHg8NxD9RvNRX878hjnVs5Pcg"/>
         
         <Card 
+         dataAos='zoom-in'
+         dataAosOffset='150'
         w="200px"
         imgH={75}
         // textAlign={'left'}
         title='Marcel' 
-          subTitle="Ux designer, Développeur front "
+          subTitle="Ux designer - Développeur front "
           image="https://images.pexels.com/photos/5439147/pexels-photo-5439147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         />
 
         <Card 
+         dataAos='zoom-in'
+         dataAosOffset='200'
         w="200px"
         imgH={75}
         textAlign={'left'}
@@ -60,11 +66,13 @@ export default function Team() {
         />
 
         <Card
+         dataAos='zoom-in'
+         dataAosOffset='250'
         w="200px"
         imgH={75}
         textAlign={'left'}
         title='Logan' 
-          subTitle="Architecte resaux "
+          subTitle="Architecte réseaux "
           image="https://images.pexels.com/photos/5439147/pexels-photo-5439147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         />
 
@@ -73,7 +81,7 @@ export default function Team() {
       imgH={75}
       // textAlign={'left'}
        title='Juliette aka Mina' 
-          subTitle="Fondatrice, chef de projet IT"
+          subTitle="Fondatrice - chef de projet IT"
           image="https://media.licdn.com/dms/image/D4E03AQHsS0XH4SR1AQ/profile-displayphoto-shrink_800_800/0/1667004646741?e=1678320000&v=beta&t=ZlSADxPZwIU_KSHvsaMHg8NxD9RvNRX878hjnVs5Pcg"/>
         
         <Card 
@@ -81,7 +89,7 @@ export default function Team() {
         imgH={75}
         // textAlign={'left'}
         title='Marcel' 
-          subTitle="Ux designer, Développeur front "
+          subTitle="Ux designer - Développeur front "
           image="https://images.pexels.com/photos/5439147/pexels-photo-5439147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         />
 
@@ -99,7 +107,7 @@ export default function Team() {
         imgH={75}
         textAlign={'left'}
          title='Logan' 
-          subTitle="Architecte resaux "
+          subTitle="Architecte réseaux "
           image="https://images.pexels.com/photos/5439147/pexels-photo-5439147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         />
 

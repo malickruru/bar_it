@@ -2,9 +2,9 @@ import React from 'react'
 import './Card.css'
 
 
-export default function Card({title,subTitle,image,textAlign = 'center', w = 'auto', imgH =50 , component}){
+export default function Card({dataAos = "" , dataAosOffset = "" , title,subTitle,image,textAlign = 'center', w = 'auto', imgH =50 , component}){
     return (
-        <div className='Card' style={{width : w}}>
+        <div className='Card' style={{width : w}} data-aos={dataAos} data-aos-offset = {dataAosOffset}>
             <img src={image} height={imgH}/>
             <h4 style={{textAlign : textAlign}}>
             {title}

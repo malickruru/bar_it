@@ -7,7 +7,7 @@ export default function Ambiance() {
     <>
     <div className='container'>
         <div className='row py-3'>
-            <Title title={"Ambiance"} subTitle={"Notre perimetre d action"}/>
+            <Title title={"Ambiance"} subTitle={"Notre périmetre d'action"} disable={true}/>
             <ImageGrid/>
         </div>  
     </div>

@@ -17,8 +17,8 @@ export default function Footer() {
                   height={120}
                   src="/logo.png"
                 />
-                <p style={{fontWeight : 'lighter'}}>
-                    Copyright &copy; <b>2022</b> lebar it.<br/>
+                <p style={{fontWeight : 50}} className='roboto'>
+                    Copyright &copy; 2022 lebar it.<br/>
                     Tous les droits sont réservés.<br/>
                     Designed & Developed by lebar IT 
                 </p>
@@ -26,8 +26,8 @@ export default function Footer() {
         }
         two={
             <div  className='footer-col'>
-                <h5>Heure d'ouverture:</h5>
-                <p style={{fontWeight : 'lighter'}}>
+                <h4 className='roboto-bold'>Heure d'ouverture:</h4>
+                <p style={{fontWeight : 50}} className='roboto'>
                     Lundi - vendredi: 8h30 - 18h<br/>
                     Samedi : 8h30 - 12h<br/>
                     Dimanche: Fermé
@@ -36,16 +36,16 @@ export default function Footer() {
         }
         three={
             <div  className='footer-col'>
-                <h5>Adresse:</h5>
-                <p style={{fontWeight : 'lighter'}}>
+                <h4 className='roboto-bold'>Adresse:</h4>
+                <p style={{fontWeight : 50}} className='roboto'>
                     Paris - Abidjan - Madagascar<br/>
                 </p>
             </div>
         }
         four={
             <div  className='footer-col' >
-                <h5>Contact:</h5>
-                <p style={{fontWeight : 'lighter'}}>
+                <h4 className='roboto-bold'>Contact:</h4>
+                <p style={{fontWeight : 50}} className='roboto'>
                     +225 07 67 76 47 49<br/>
                     contactbar.it@gmail.com
                 </p>

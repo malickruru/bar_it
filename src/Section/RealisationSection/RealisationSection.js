@@ -14,12 +14,16 @@ export default function RealisationSection() {
               breakpoint: 600,
               settings: {
                 slidesPerRow: 1,
+                rows: 1,
+                dots: false,
+                autoplay:true
               }
             }
           ]
       };
   return (
     <div className='pt-5 container'>
+        <div className='Realisation-space'></div>
         <Slider {...settings} >
             <div className='RealisationCard' style={{margin : "20px"}}>
                 <img src='https://cdn.dribbble.com/userupload/4247834/file/original-e68f51e79335c2fe4c87a14eac6631e0.png?compress=1&resize=1504x1128' />

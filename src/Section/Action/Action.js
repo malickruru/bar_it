@@ -10,23 +10,23 @@ export default function Action() {
     <>
     <div className='container'>
         <div className='row py-3'>
-            <Title title={'Ce que nous faisons'} subTitle='Notre perimetre d action'/>
+            <Title title={'Ce que nous faisons'} subTitle="Notre périmetre d'action"/>
         </div>  
     </div>
     <Col_4 
     one={
         <Card title='Site web' 
-        subTitle="Vitrine et ecommerce"
+        subTitle="Vitrine & e-commerce"
         image="/img/Action/navigateur-web.png"/>
     }
     two={
         <Card title='Applications' 
-        subTitle="Android et IOS"
+        subTitle="Android & IOS"
         image="/img/Action/application.png"/>
     }
     three={
         <Card title='Logiciels' 
-        subTitle="Metier"
+        subTitle="Métier"
         image="/img/Action/navigateur-web.png"/>
     }
     four={

@@ -5,6 +5,6 @@ import './Bouton.css'
 
 export default function Bouton({text,rounded = ""}) {
   return (
-    <button className={"bit-btn"+rounded} s>{text}</button>
+    <button className={"bit-btn"+rounded} >{text}</button>
   )
 }

@@ -7,12 +7,14 @@ const ImageGrid = () => {
   const [imageUrls, setImageUrls] = useState([]);
   const [showOverlay, setShowOverlay] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch('https://picsum.photos/v2/list?limit=9');
       const data = await response.json();
       setImageUrls(data.map(item => item.download_url));
+      setIsLoading(false);
     };
     fetchData();
   }, []);
@@ -26,14 +28,22 @@ const ImageGrid = () => {
     setShowOverlay(false);
   };
 
+  if (isLoading) {
+    return (
+      <div className='container p-5' style={flexRowCenter}>
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+      </div>
+    );
+  }
+
   return (
     <>
       <div className="image-grid d-flex flex-wrap">
         {
           imageUrls.map((url, index) => {
             return (
-                <div className="img col-md-4 col-12 p-2"  onClick={() => handleImageClick(url) }>
-                    <img src={url} alt={`Image ${index + 1}`}  style={{width : '100%'}} />
+                <div className="img col-md-4 col-12 p-2"   onClick={() => handleImageClick(url) }>
+                    <img src={url} alt={` ${index + 1}`}  style={{width : '100%'}} loading="lazy" />
                     <div className='img-hover' style={flexRowCenter}>
                         <div style={{...flexRowCenter, width : '30px' , height : '30px', borderRadius : '50%' , backgroundColor : "#fff" ,color :"#F27289"}}>
                             <FiPlus/>

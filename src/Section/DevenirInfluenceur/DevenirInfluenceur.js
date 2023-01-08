@@ -1,27 +1,57 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './DevenirInfluenceur.css'
 import { HiSpeakerWave,HiArrowLeftCircle, HiPlus } from "react-icons/hi2";
 import Bouton from '../../Partials/Bouton/Bouton';
-import { flexColumn, flexRowAround, flexRowBetween, flexRowCenter, flexRowEvenly } from '../../Assets/Style/Flex';
+import { flexColumn, flexRight, flexRowAround, flexRowBetween, flexRowCenter, flexRowEvenly } from '../../Assets/Style/Flex';
+import { BsXLg } from "react-icons/bs";
 
 export default function DevenirInfluenceur() {
     const [resau, setResau] = useState([]);
+    const [translate, setTranslate] = useState(false);
+    function translationValue(){
+        if (!translate) {
+            return 0
+        }else{
+            return 95
+        }
+    }
+    const form = useRef(null)
 
   return (
-    <div className='form-infuenceur'>
+    <div className='form-infuenceur' ref={form}>
         <div className='call_to_action' style={{color : '#F27289'}}>
         <HiSpeakerWave/>
-        <p className='p-0 m-0' style={{writingMode : 'vertical-rl'}}>
+        <p className='p-0 m-0 desktop-only ' style={{writingMode : 'vertical-rl'}}>
+            DEVENIR INFLUENCEUR
+        </p>
+        <p 
+        className='p-0 m-0 mobile-only-block'  
+        style={{writingMode : 'vertical-rl'}} 
+        onClick={() => {
+            form.current.style.transform = "translateX("+translationValue()+"%)";
+            setTranslate(!translate)
+        }}
+        >
             DEVENIR INFLUENCEUR
         </p>
         <HiArrowLeftCircle/>
+        
+
         </div>
 
         <div className='w-100 p-5'>
+        <div className='w-100 p-2 close-inf' >
+        <div onClick={() => {
+            form.current.style.transform = "translateX(95%)";
+            setTranslate(false)
+        }}>
+            <BsXLg/>
+        </div >
+        </div >
             <h4 >Rejoindre le réseau de nos</h4>
             <h4 style={{color : "#F27289"}}>infuenceur africain</h4>
-            <div style={flexRowAround}>
-            <form style={{...flexColumn,width:"50%"}}>
+            <div className='influenceur-layout'  >
+            <form style={{...flexColumn}}>
                 <div style={flexRowAround}>
                 <input className='contact-input' type={'radio'} name="sexe" value='femme' checked/> <label for="femme">femme</label>
                 <input className='contact-input' type={'radio'} name="sexe" value='homme' /> <label for="homme">homme</label>
@@ -48,12 +78,12 @@ export default function DevenirInfluenceur() {
                 <input className='contact-input' type={'text'} placeholder={"Telephone"}/>
 
             </form>
-            <form style={{...flexColumn,width:"50%"}}>
+            <form style={{...flexColumn}}>
                 <input className='contact-input' type={'file'} placeholder={'votre photo'}/>
                 <input className='contact-input' type={'text'} placeholder={'Votre domaine'}/>
                 <input className='contact-input' type={'text'} placeholder={'Lien de votre site web'}/>
                 
-                <div style={{width : '70%'}}>
+                <div style={{width : '70%'}} className='roboto'>
                     <input className='m-2' type={'checkbox'} placeholder={'Lien de votre site web'} style={{display : 'inline'}}/>
                 En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées afin de traiter ma demande.* 
                 </div>

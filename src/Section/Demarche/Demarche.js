@@ -9,18 +9,18 @@ export default function Demarche() {
     <>
     <div className='container'>
         <div className='row py-3'>
-            <Title title={'Processus de travail'} subTitle='Notre demarche'/>
+            <Title title={'Processus de travail'} subTitle='Notre démarche'/>
         </div>  
     </div>
     <Col_4 
     one={
         <Card title='Collecte' 
-        subTitle="d informations"
+        subTitle="d'informations"
         image="/img/Action/navigateur-web.png"/>
     }
     two={
         <Card title='Planification' 
-        subTitle="d idees"
+        subTitle="d'idees"
         image="/img/Action/application.png"/>
     }
     three={
@@ -30,7 +30,7 @@ export default function Demarche() {
     }
     four={
         <Card title='Conception' 
-        subTitle="et Realisation"
+        subTitle="et réalisation"
         image="/img/Action/presentation-commerciale.png"/>
     }
     />

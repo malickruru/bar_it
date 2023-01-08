@@ -5,14 +5,25 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/js/bootstrap.js';
+import AOS from 'aos';
+import  'aos/dist/aos.css';
 
 // carousel
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
 
+
+  AOS.init({
+    once: true,
+    duration: 1200,
+    anchorPlacement: 'top-center'
+  });
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
     <App />
   </React.StrictMode>

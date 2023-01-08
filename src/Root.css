@@ -25,7 +25,7 @@
   
   @font-face {
     font-family: 'Termina Bold';
-    src: url(./Assets/Fonts/Fontspring-DEMO-termina-bold.otf);
+    src: url(./Assets/Fonts/Termina-W05-Bold.ttf);
   }
   
   @font-face {
@@ -34,17 +34,33 @@
   }
 
   @font-face {
-    font-family: 'MADEOuterSans-Black';
-    src:url(./Assets/Fonts/webfonts_MADEOuterSans-Black/MADEOuterSans-Black.ttf.woff) format('woff'),
-        url(./Assets/Fonts/webfonts_MADEOuterSans-Black/MADEOuterSans-Black.ttf.svg#MADEOuterSans-Black) format('svg'),
-        url(./Assets/Fonts/webfonts_MADEOuterSans-Black/MADEOuterSans-Black.ttf.eot),
-        url(./Assets/Fonts/webfonts_MADEOuterSans-Black/MADEOuterSans-Black.ttf.eot?#iefix) format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
-}
+    font-family: 'Pano Bold';
+    src: url(./Assets/Fonts/Pano/Pano\ Bold.otf);
+  }
+  @font-face {
+    font-family: 'Pano Light';
+    src: url(./Assets/Fonts/Pano/Pano\ Light.otf);
+  }
+  @font-face {
+    font-family: 'Pano';
+    src: url(./Assets/Fonts/Pano/Pano\ Regular.otf);
+  }
+  @font-face {
+    font-family: 'Matrice';
+    src: url(./Assets/Fonts/Matrice-Regular.ttf);
+  }
 
+  
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
   *{
+    font-family: 'Matrice';
+  }
+
+  .roboto{
     font-family: 'Roboto';
-    
+  }
+
+  .roboto-bold{
+    font-family: 'Roboto';
+    font-weight: 500;
   }

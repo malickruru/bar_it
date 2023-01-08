@@ -28,3 +28,39 @@
 .call_to_action svg{
     margin: 20px 0;
 }
+
+.influenceur-layout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.influenceur-layout form{
+    width:50%;
+}
+
+.close-inf{
+    display: none;
+}
+
+@media screen and (max-width : 768px) {
+    .form-infuenceur{
+        width: 100%;
+        transform: translateX(95%);
+    }
+
+    .influenceur-layout{
+        flex-direction: column;
+    }
+
+    .influenceur-layout form{
+        width:100%;
+    }
+
+
+    
+.close-inf{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+}

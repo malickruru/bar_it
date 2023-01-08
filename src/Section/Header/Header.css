@@ -49,7 +49,7 @@
 
 .dropdown:hover > .header-dropdown-link{
     opacity: 1;
-    top: 20px;
+    top: 15px;
     border: 1px grey solid;
     border-radius: 10px;
    pointer-events: all;
@@ -67,3 +67,36 @@
     background-color: var(--pink);
 }
 
+.mobile-only {
+    display: none ;
+}
+
+.ul-link li{
+    list-style: none;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.mobile-only-block{
+    display: none;
+}
+
+
+@media screen and (max-width : 768px) {
+    .desktop-only {
+        display: none !important;
+    }
+
+    
+.mobile-only {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mobile-only-block{
+    display: block;
+}
+
+}

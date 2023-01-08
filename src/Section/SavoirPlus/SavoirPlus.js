@@ -8,22 +8,22 @@ import "./SavoirPlus.css"
 const Page = [
     {
         id : 1,
-        titre : "Besoin d un site web ?",
-        text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        titre : "Besoin d'un site web ?",
+        text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
         link:"/",
         image : "/img/hero/2.png"
     },
     {
         id : 2,
-        titre : "Qu est ce que c est un Social Bar ?",
-        text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        titre : "Qu'est ce que c'est un Social Bar ?",
+        text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
         link:"/SocialBar",
         image : "/img/hero/1.png"
     },
     {
         id : 3,
-        titre : "Qu est ce que le bar a influence ?",
-        text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        titre : "Qu'est ce que le bar a influence ?",
+        text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
         link:"/BarInfluence",
         image : "/img/hero/3.png"
     }
@@ -38,7 +38,7 @@ function SavoirPlusCard ({obj}){
                 {obj.titre}
             </h6>
                 
-                    <p >
+                    <p className='roboto'>
                     {obj.text}
                     </p>
                     <Link to={obj.link}>
