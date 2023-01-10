@@ -1,20 +1,35 @@
 .contact-card{
     background-color: #F2F2F2;
     border-radius: 10px;
-    padding: 5px;
-    
+    padding: 15px;
+    /* width: 100%; */
+}
+
+#left-card{
+    width: 100%;
 }
 
 .contact-input{
     width: 70%;
     margin: 10px;
-    color: #F27289 ;
+    color: #000 ;
     outline: none;
     padding: 10px;
+    border-radius: 10px;
+    border: 0.5px black solid;
+    background-color: #f2728932;
+    font-family: 'Roboto';
 }
 
 .contact-input::placeholder{
- color: #F27289;
+ /* color: #F27289; */
  opacity: 0.5;
+ font-family: 'Roboto';
  /* font-size: 10px; */
+}
+
+option{
+    font-family: 'Roboto';
+    padding: 10px;
+    
 }

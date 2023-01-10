@@ -29,7 +29,7 @@ export default function Header() {
   
   return (
     <>
-      <nav className="p-2 header position-fixed" ref={Header} >
+      <nav className="p-2 header " ref={Header} >
         <div className="container">
           <div className="row">
             <div className="col-sm-3 col-6">

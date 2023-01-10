@@ -1,12 +1,14 @@
 .Hero{
-    height: 100vh;
+    height: 80vh;
     background-size: 100%;
     background-position: 0 30%;
     background-repeat: no-repeat;
+    
 }
 
 .Hero > a {
-    margin-bottom: 27px;
+    position: absolute;
+    bottom: 50px;
 }
 
 @media screen and (max-width : 768px) {

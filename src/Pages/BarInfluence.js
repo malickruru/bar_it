@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ScrollToTopButton from '../Partials/ScrollToTopButton/ScrollToTopButton'
 import Bienvenu from '../Section/Bienvenu/Bienvenu'
 import Contact from '../Section/Contact/Contact'
@@ -9,6 +9,11 @@ import Influenceur from '../Section/Influenceur/Influenceur'
 import SavoirPlus from '../Section/SavoirPlus/SavoirPlus'
 
 export default function BarInfluence() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }, []);
+
+
   return (
     <>
     <Hero image={"/img/hero/3.png"}/>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Bienvenu from '../Section/Bienvenu/Bienvenu'
 import Hero from '../Section/Hero/Hero'
 import SavoirPlus from '../Section/SavoirPlus/SavoirPlus'
@@ -8,6 +8,11 @@ import ScrollToTopButton from '../Partials/ScrollToTopButton/ScrollToTopButton'
 import Ambiance from '../Section/Ambiance/Ambiance'
 
 export default function SocialBar() {
+  
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }, []);
+
   return (
     <>
     <Hero image={"/img/hero/1.png"}/>

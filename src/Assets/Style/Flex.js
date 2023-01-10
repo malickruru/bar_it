@@ -25,6 +25,13 @@ const flexLeft = {
   flexDirection: "row",
 };
 
+const flexAlignStart = {
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "flex-start",
+  
+};
+
 const flexColumnLeft = {
   display: "flex",
   justifyContent: "left",
@@ -71,5 +78,6 @@ export {
   flexRowBetween,
   flexColumnRight,
   flexColumnEnd,
-  flexRowEvenly
+  flexRowEvenly,
+  flexAlignStart
 };

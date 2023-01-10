@@ -8,16 +8,20 @@ import { BsXLg } from "react-icons/bs";
 export default function DevenirInfluenceur() {
     const [resau, setResau] = useState([]);
     const [translate, setTranslate] = useState(false);
+    
     function translationValue(){
         if (!translate) {
             return 0
         }else{
             return 95
         }
-    }
+    } 
     const form = useRef(null)
 
+    
+
   return (
+    <>
     <div className='form-infuenceur' ref={form}>
         <div className='call_to_action' style={{color : '#F27289'}}>
         <HiSpeakerWave/>
@@ -48,8 +52,8 @@ export default function DevenirInfluenceur() {
             <BsXLg/>
         </div >
         </div >
-            <h4 >Rejoindre le réseau de nos</h4>
-            <h4 style={{color : "#F27289"}}>infuenceur africain</h4>
+            <h4 className='text-center p-2'>Rejoindre le réseau de nos
+            <span style={{color : "#F27289"}}> infuenceur africain</span></h4>
             <div className='influenceur-layout'  >
             <form style={{...flexColumn}}>
                 <div style={flexRowAround}>
@@ -95,5 +99,7 @@ export default function DevenirInfluenceur() {
             </div>
         </div>
     </div>
+    
+    </>
   )
 }

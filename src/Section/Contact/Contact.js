@@ -1,5 +1,5 @@
 import React from 'react'
-import { flexColumn, flexLeft, flexRowAround, flexRowCenter } from '../../Assets/Style/Flex'
+import { flexAlignStart, flexColumn, flexLeft, flexRowAround, flexRowCenter } from '../../Assets/Style/Flex'
 import Bouton from '../../Partials/Bouton/Bouton'
 import Col_2 from '../../Partials/Layout/Col_2'
 import './Contact.css'
@@ -12,16 +12,16 @@ export default function Contact() {
         <div >
         <p className='roboto-bold'>Des projets en tête ? n'hesitez pas<br/> à
         nous contacter ou <span className='roboto-bold'  style={{color : "#F27289"}}>juste nous faire un coucou. </span> </p>
-            <div style={flexColumn} className='contact-card'>
+            <div style={flexColumn} className='contact-card' id='left-card'>
                 <div  style={{...flexLeft,width : "80%"}} className="p-2">
-                    <img src='/img/action/location-pin.png'/>
+                    <img src='/img/Action/location-pin.png'/>
                     <div style={{marginLeft :'10px'}}>
                         <h5 className='m-0 roboto-bold'>Adresse</h5>
                         <span className='roboto'>Paris-Abidjan-Madagascar</span>
                     </div>
                 </div>
                 <div style={{...flexLeft,width : "80%"}} className="p-2">
-                    <img src='/img/action/email.png'/>
+                    <img src='/img/Action/email.png'/>
                     <div style={{marginLeft :'10px'}}>
                         <h5 className='m-0 roboto-bold'>Adresse mail</h5>
                         <span  className='roboto'>contact@lebar-it.com</span>
@@ -48,6 +48,6 @@ export default function Contact() {
             </form>
         </div>
     }
-    styleR={flexRowCenter}/>
+    flex={[{},flexRowCenter]}/>
   )
 }

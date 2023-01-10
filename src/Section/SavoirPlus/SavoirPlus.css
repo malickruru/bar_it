@@ -1,9 +1,10 @@
 .sp-card{
-width : 90%;
-  height : 200px;
+  width : 90%;
+  height : 250px;
   position : relative;
   transition : all 0.3s ease;
   overflow: hidden;
+  border-radius: 15px;
 }
 .carte-img{
   object-fit:cover;

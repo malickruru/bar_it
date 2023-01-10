@@ -11,10 +11,11 @@ export default function Footer() {
   return (
     <div className='container-fluid footer' >
         <Col_4 
+        anchor='bottom'
         one={
             <div className='footer-col'>
                 <img
-                  height={120}
+                  height={80}
                   src="/logo.png"
                 />
                 <p style={{fontWeight : 50}} className='roboto'>
@@ -43,11 +44,11 @@ export default function Footer() {
             </div>
         }
         four={
-            <div  className='footer-col' >
+            <div  className='footer-col ' >
                 <h4 className='roboto-bold'>Contact:</h4>
                 <p style={{fontWeight : 50}} className='roboto'>
-                    +225 07 67 76 47 49<br/>
-                    contactbar.it@gmail.com
+                    + 33 7 69 61 92 12<br/>
+                    <a className='footer-link roboto' href='mailto:contactbar.it@lebar-it.com'>contactbar.it@lebar-it.com</a>
                 </p>
             </div>
         }

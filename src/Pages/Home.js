@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ScrollToTopButton from '../Partials/ScrollToTopButton/ScrollToTopButton'
 import Action from '../Section/Action/Action'
 
@@ -14,9 +14,16 @@ import Team from '../Section/Team/Team'
 
 
 export default function Home() {
+  
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }, []);
+
+
+
   return (
     <>
-      <Hero image={"/img/hero/2.png"}/>
+      <Hero image={"/img/hero/2.png"} bottom='20px'/>
       <Bienvenu 
         image={"/img/hero/2.png"} 
         paragraphe={`Introduction Sed ut perspiciatis unde omnis iste natus error sit

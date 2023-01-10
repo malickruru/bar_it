@@ -1,12 +1,11 @@
 .footer{
     background-color: #262626;
     color: #fff;
+    /* bottom: 0;
+    position: relative; */
 }
 
 .footer-col{
-    /* display: flex;
-    flex-direction: column; */
-    /* justify-content: center; */
     height: 50%;
     bottom: 0;
     position: relative;
@@ -14,4 +13,19 @@
 
 .footer-col >h5{
     margin-bottom: 20px;
+}
+
+.footer-link{
+    color : #F27289;
+}
+
+@media screen and (max-width : 425px) {
+    .footer-col{
+        height: fit-content;
+    }
+    
+    .footer-col >h5{
+        margin-bottom: 0px;
+    }
+    
 }
