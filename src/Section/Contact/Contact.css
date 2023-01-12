@@ -18,7 +18,20 @@
     border-radius: 10px;
     border: 0.5px black solid;
     background-color: #f2728932;
-    font-family: 'Roboto';
+    position: relative;
+    /* font-family: 'Roboto'; */
+   
+}
+
+.contact-input.insta::before{
+    content: '';
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    background-color: red;
+    color: black;
+    position: absolute;
 }
 
 .contact-input::placeholder{
@@ -26,6 +39,7 @@
  opacity: 0.5;
  font-family: 'Roboto';
  /* font-size: 10px; */
+ 
 }
 
 option{

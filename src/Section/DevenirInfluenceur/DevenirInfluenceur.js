@@ -3,10 +3,11 @@ import './DevenirInfluenceur.css'
 import { HiSpeakerWave,HiArrowLeftCircle, HiPlus } from "react-icons/hi2";
 import Bouton from '../../Partials/Bouton/Bouton';
 import { flexColumn, flexRight, flexRowAround, flexRowBetween, flexRowCenter, flexRowEvenly } from '../../Assets/Style/Flex';
-import { BsXLg } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter, BsXLg } from "react-icons/bs";
+import { FaTiktok } from "react-icons/fa";
 
 export default function DevenirInfluenceur() {
-    const [resau, setResau] = useState([]);
+    
     const [translate, setTranslate] = useState(false);
     
     function translationValue(){
@@ -63,31 +64,29 @@ export default function DevenirInfluenceur() {
                 <input className='contact-input' type={'text'} placeholder={'Vos noms et prénoms'}/>
                 <input className='contact-input' type={'text'} placeholder={'Pays'}/>
                 <input className='contact-input' type={'text'} placeholder={'E-mail'}/>
-                <div style={flexRowEvenly}>
-                <input className='contact-input' style={{width : '95%'}} type={'text'} placeholder={"Ajouter un réseau social"}/>
-                <div 
-                onClick={() => {
-                        var tab = [...resau, 1]
-                        setResau(tab)
-                    }} 
-                    >
-                    <HiPlus style={{cursor :'pointer'}} />
-                </div>
-                
-                
-                </div>
-                {
-                resau.map((e,i) => <input key={i} className='contact-input' type={'text'} placeholder={"Ajouter un réseau social"}/>)
-                }
                 <input className='contact-input' type={'text'} placeholder={"Telephone"}/>
+                <input className='contact-input' type={'text'} placeholder={'Votre domaine'}/>
 
             </form>
             <form style={{...flexColumn}}>
-                <input className='contact-input' type={'file'} placeholder={'votre photo'}/>
-                <input className='contact-input' type={'text'} placeholder={'Votre domaine'}/>
-                <input className='contact-input' type={'text'} placeholder={'Lien de votre site web'}/>
                 
-                <div style={{width : '70%'}} className='roboto'>
+                <div>
+                    <BsInstagram/>
+                    <input className='contact-input insta' style={{width :'80%'}}   type={'text'} placeholder={"Votre compte Instagram"}/>
+                </div>
+                <div>
+                    <BsFacebook/>
+                    <input className='contact-input insta' style={{width :'80%'}}   type={'text'} placeholder={"Votre compte Facebook"}/>
+                </div>
+                <div>
+                    <BsTwitter/>
+                    <input className='contact-input insta' style={{width :'80%'}}   type={'text'} placeholder={"Votre compte Twitter"}/>
+                </div>
+                <div>
+                    <FaTiktok/>
+                    <input className='contact-input insta' style={{width :'80%'}}   type={'text'} placeholder={"Votre compte Tik Tok"}/>
+                </div>
+                <div style={{width : '70%'}} className='roboto-thin'>
                     <input className='m-2' type={'checkbox'} placeholder={'Lien de votre site web'} style={{display : 'inline'}}/>
                 En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées afin de traiter ma demande.* 
                 </div>

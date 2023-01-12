@@ -32,7 +32,7 @@ export default function Header() {
       <nav className="p-2 header " ref={Header} >
         <div className="container">
           <div className="row">
-            <div className="col-sm-3 col-6">
+            <div className="col-md-3 col-6">
               <Link to="/">
                 <img
                 className="header-link img"

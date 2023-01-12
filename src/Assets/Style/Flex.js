@@ -11,6 +11,13 @@ const flexColumnEnd = {
   flexDirection: "column",
 };
 
+const flexColumnStart= {
+  display: "flex",
+  justifyContent: "flex-start",
+  alignItems: "center",
+  flexDirection: "column",
+};
+
 const flexRight = {
   display: "flex",
   justifyContent: "right",
@@ -79,5 +86,6 @@ export {
   flexColumnRight,
   flexColumnEnd,
   flexRowEvenly,
-  flexAlignStart
+  flexAlignStart,
+  flexColumnStart
 };

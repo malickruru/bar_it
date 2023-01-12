@@ -24,7 +24,7 @@ export default function Contact() {
                     <img src='/img/Action/email.png'/>
                     <div style={{marginLeft :'10px'}}>
                         <h5 className='m-0 roboto-bold'>Adresse mail</h5>
-                        <span  className='roboto'>contact@lebar-it.com</span>
+                        <span  className='roboto'>contactbar.it@lebar-it.com</span>
                     </div>
                 </div>
             </div>

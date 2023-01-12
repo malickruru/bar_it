@@ -1,5 +1,5 @@
 import React from 'react'
-import { flexColumnEnd } from '../../Assets/Style/Flex'
+import { flexColumnStart } from '../../Assets/Style/Flex'
 import Col_4 from '../../Partials/Layout/Col_4'
 import './Footer.css'
 
@@ -13,12 +13,12 @@ export default function Footer() {
         <Col_4 
         anchor='bottom'
         one={
-            <div className='footer-col'>
+            <div  >
                 <img
-                  height={80}
+                  height={60}
                   src="/logo.png"
                 />
-                <p style={{fontWeight : 50}} className='roboto'>
+                <p style={{fontWeight : 100,fontSize : 14}} className='roboto'>
                     Copyright &copy; 2022 lebar it.<br/>
                     Tous les droits sont réservés.<br/>
                     Designed & Developed by lebar IT 
@@ -26,9 +26,9 @@ export default function Footer() {
             </div>
         }
         two={
-            <div  className='footer-col'>
-                <h4 className='roboto-bold'>Heure d'ouverture:</h4>
-                <p style={{fontWeight : 50}} className='roboto'>
+            <div className='pt-4' >
+                <h5 className='roboto-bold'>Heure d'ouverture:</h5>
+                <p style={{fontWeight : 100,fontSize : 14}} className='roboto'>
                     Lundi - vendredi: 8h30 - 18h<br/>
                     Samedi : 8h30 - 12h<br/>
                     Dimanche: Fermé
@@ -36,17 +36,17 @@ export default function Footer() {
             </div>
         }
         three={
-            <div  className='footer-col'>
-                <h4 className='roboto-bold'>Adresse:</h4>
-                <p style={{fontWeight : 50}} className='roboto'>
+            <div className='pt-4' >
+                <h5 className='roboto-bold'>Adresse:</h5>
+                <p style={{fontWeight : 100,fontSize : 14}} className='roboto'>
                     Paris - Abidjan - Madagascar<br/>
                 </p>
             </div>
         }
         four={
-            <div  className='footer-col ' >
-                <h4 className='roboto-bold'>Contact:</h4>
-                <p style={{fontWeight : 50}} className='roboto'>
+            <div  className='pt-4' >
+                <h5 className='roboto-bold'>Contact:</h5>
+                <p style={{fontWeight : 100,fontSize : 14}} className='roboto'>
                     + 33 7 69 61 92 12<br/>
                     <a className='footer-link roboto' href='mailto:contactbar.it@lebar-it.com'>contactbar.it@lebar-it.com</a>
                 </p>
@@ -54,10 +54,10 @@ export default function Footer() {
         }
         style={
             [
-                {},
-                flexColumnEnd,
-                flexColumnEnd,
-                flexColumnEnd
+                flexColumnStart,
+                flexColumnStart,
+                flexColumnStart,
+                flexColumnStart
             ]
         }
         />

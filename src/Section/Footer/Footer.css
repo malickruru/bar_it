@@ -5,18 +5,14 @@
     position: relative; */
 }
 
-.footer-col{
-    height: 50%;
-    bottom: 0;
-    position: relative;
-}
 
-.footer-col >h5{
-    margin-bottom: 20px;
-}
 
 .footer-link{
     color : #F27289;
+}
+
+.footer-link:hover{
+    color : #94c9ff;
 }
 
 @media screen and (max-width : 425px) {
