@@ -1,7 +1,7 @@
 import React from 'react'
 import DotGrid from '../../Assets/svg/dotGrid'
 import Col_2 from '../../Partials/Layout/Col_2'
-import './Bienvenu.css'
+
 
 export default function Bienvenu({image,titre,paragraphe,smallTitle = '' }) {
   return (

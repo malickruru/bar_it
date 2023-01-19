@@ -1,7 +1,7 @@
 import React from 'react'
 import { flexColumnStart } from '../../Assets/Style/Flex'
 import Col_4 from '../../Partials/Layout/Col_4'
-import './Footer.css'
+
 
 function bold({text}){
     <b>{text}</b>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './ImageGrid.css'
+
 import { FiPlus } from "react-icons/fi";
 import { flexRowCenter } from '../../Assets/Style/Flex';
 

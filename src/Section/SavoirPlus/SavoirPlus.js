@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { flexRowCenter } from '../../Assets/Style/Flex'
 import Bouton from '../../Partials/Bouton/Bouton'
 import Col_2 from '../../Partials/Layout/Col_2'
-import "./SavoirPlus.css"
 
 const Page = [
     {

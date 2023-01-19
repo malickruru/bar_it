@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/BarInfluence": "pages/BarInfluence.js",
+  "/Home": "pages/Home.js",
+  "/Realisation": "pages/Realisation.js",
+  "/SocialBar": "pages/SocialBar.js",
+  "/_document": "pages/_document.js"
+}

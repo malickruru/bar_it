@@ -1,7 +1,7 @@
 import React from 'react'
 import { flexColumnEnd } from '../../Assets/Style/Flex'
 import Bouton from '../../Partials/Bouton/Bouton'
-import './Hero.css'
+
 
 export default function Hero({image,bottom = '50px'}) {
   return (

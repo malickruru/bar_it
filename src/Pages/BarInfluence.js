@@ -19,7 +19,7 @@ export default function BarInfluence() {
     <Hero image={"/img/hero/3.png"}/>
     <Bienvenu 
         image={"/img/hero/3.png"} 
-        paragraphe={`Parcequ une strategie d influence peut booster votre notoriete
+        paragraphe={`Parcequ'une strategie d'influence peut booster votre notoriete
         Ou vos ventes. lls vous faut mesurer les impacts et les KPI pour
         cela et fort de notre expertise, nous vous accompagnons.
         `}

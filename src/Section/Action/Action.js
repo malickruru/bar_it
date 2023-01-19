@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../../Partials/Card/Card'
 import Col_4 from '../../Partials/Layout/Col_4'
 import Title from '../../Partials/Title/Title'
-import './Action.css'
+
 
 
 export default function Action() {

@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Outlet, Link, useLocation } from "react-router-dom";
 import {  flexRight, flexRowAround} from "../../Assets/Style/Flex";
 import Bouton from "../../Partials/Bouton/Bouton";
-import './Header.css'
+
 import { BsList, BsXLg } from "react-icons/bs";
 
 export default function Header() {

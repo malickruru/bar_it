@@ -1,5 +1,5 @@
 import React from 'react';
-import './ScrollToTopButton.css';
+
 import { BsChevronDoubleUp } from "react-icons/bs";
 
 

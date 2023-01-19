@@ -2,7 +2,7 @@ import React from 'react'
 import { flexAlignStart, flexColumn, flexLeft, flexRowAround, flexRowCenter } from '../../Assets/Style/Flex'
 import Bouton from '../../Partials/Bouton/Bouton'
 import Col_2 from '../../Partials/Layout/Col_2'
-import './Contact.css'
+
 
 export default function Contact() {
   return (

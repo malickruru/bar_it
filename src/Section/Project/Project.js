@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Title from '../../Partials/Title/Title'
 import Slider from "react-slick";
-import './Project.css'
+
  
 export default function Project() {
     const settings = {

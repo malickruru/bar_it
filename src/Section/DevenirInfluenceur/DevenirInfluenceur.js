@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import './DevenirInfluenceur.css'
+
 import { HiSpeakerWave,HiArrowLeftCircle, HiPlus } from "react-icons/hi2";
 import Bouton from '../../Partials/Bouton/Bouton';
 import { flexColumn, flexRight, flexRowAround, flexRowBetween, flexRowCenter, flexRowEvenly } from '../../Assets/Style/Flex';

@@ -1,5 +1,19 @@
 @import url('Root.css');
-
+@import url('./Partials/Bouton/Bouton.css');
+@import url('./Partials/Card/Card.css');
+@import url('./Partials/ImageGrid/ImageGrid.css');
+@import url('./Partials/ScrollToTopButton/ScrollToTopButton.css');
+@import url('./Section/Action/Action.css');
+@import url('./Section/Bienvenu/Bienvenu.css');
+@import url('./Section/Contact/Contact.cs');
+@import url('./Section/DevenirInfluenceur/DevenirInfluenceur.css');
+@import url('./Section/Footer/Footer.css');
+@import url('./Section/Header/Header.css');
+@import url('./Section/Hero/Hero.css');
+@import url('./Section/Influenceur/Influenceur.css');
+@import url('./Section/Project/Project.css');
+@import url('./Section/RealisationSection/RealisationSection.css');
+@import url('./Section/SavoirPlus/SavoirPlus.css');
 body {
   margin: 0;
   padding: 0;

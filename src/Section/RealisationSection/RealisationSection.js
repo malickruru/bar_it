@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Slider from 'react-slick';
-import './RealisationSection.css'
+
 
 export default function RealisationSection() {
     const [showOverlay, setShowOverlay] = useState(false);

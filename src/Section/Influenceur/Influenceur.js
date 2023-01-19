@@ -5,7 +5,7 @@ import Bouton from '../../Partials/Bouton/Bouton'
 import Card from '../../Partials/Card/Card'
 import Col_4 from '../../Partials/Layout/Col_4'
 import Title from '../../Partials/Title/Title'
-import './Influenceur.css'
+
 
 export default function Influenceur() {
     const [showOverlay, setShowOverlay] = useState(false);

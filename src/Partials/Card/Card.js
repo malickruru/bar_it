@@ -1,5 +1,5 @@
 import React from 'react'
-import './Card.css'
+
 
 
 export default function Card({dataAos = "" , dataAosOffset = "" , title,subTitle,image,textAlign = 'center', w = 'auto', imgH =50 , component}){
